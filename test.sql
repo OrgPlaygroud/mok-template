@@ -4,4 +4,6 @@ executionMasks:
 glgjwtComment: 'Deny All'
 */
 
+set transaction isolation level read uncommitted;
+
 select 1 as test
